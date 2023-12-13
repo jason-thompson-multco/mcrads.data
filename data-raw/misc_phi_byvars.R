@@ -9,6 +9,7 @@
 rm(list=ls())
 library(data.table)
 library(stringi)
+library(mcrads.data)
 
 # Import data from SharePoint ----
 #    team <- get_team("Community Health Indicators")
