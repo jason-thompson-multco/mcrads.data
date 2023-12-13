@@ -30,6 +30,9 @@ library(mcrads.data)
 
     close(con)
 
+    misc_phi_byvars <- copy(my_data)
+
+
     misc_phi_byvars <- as.data.table(misc_phi_byvars)
 
     mcrads::sql_clean(misc_phi_byvars) # get rid of misc whitespace
