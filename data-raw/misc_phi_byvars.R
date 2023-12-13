@@ -32,10 +32,11 @@ library(mcrads.data)
 
     misc_phi_byvars <- copy(my_data)
 
+    mcrads::sql_clean(misc_phi_byvars) # get rid of misc whitespace
 
     misc_phi_byvars <- as.data.table(misc_phi_byvars)
 
-    mcrads::sql_clean(misc_phi_byvars) # get rid of misc whitespace
+    
 
     setorder(misc_phi_byvars, cat, varname, group)
     misc_phi_byvars <- rbind(misc_phi_byvars[cat == 'Multnomah County'], misc_phi_byvars[cat == "Oregon State"], misc_phi_byvars[!cat %in% c("Multnomah County", "Oregon State")])
