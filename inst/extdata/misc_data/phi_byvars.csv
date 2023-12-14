@@ -107,7 +107,7 @@ Birthing person's education,edu_grp,"Some college, no degree",Yes,NA,10/2/2023
 Children in household,hhwchild,Households with children,Yes,NA,10/2/2023
 Children in household,hhwchild,Households without children,Yes,NA,10/2/2023
 Cities/neighborhoods,places,Gresham,Yes,"ACS uninsured, from tables, 'places' with pop > 65K",10/2/2023
-Cities/neighborhoods,places,Portland,Yes,"ACS uninsured, from tables, 'places' with pop > 65K",10/2/2023
+Cities/neighborhoods,places,PDX,Yes,"ACS uninsured, from tables, 'places' with pop > 65K",10/2/2023
 Detailed Asian race/ethnicity,phi_race_aic_asianother,Asian - other,Yes,NA,10/2/2023
 Detailed Asian race/ethnicity,phi_race_aic_asianother,Not Asian - other,No,NA,10/2/2023
 Detailed Asian race/ethnicity,phi_race_aic_cambodian,Cambodian/Khmer,Yes,NA,10/2/2023
