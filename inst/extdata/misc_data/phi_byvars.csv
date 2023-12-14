@@ -26,7 +26,7 @@ Age,age6_v2,25-44,Yes,NA,10/2/2023
 Age,age6_v2,45-64,Yes,NA,10/2/2023
 Age,age6_v2,65-74,Yes,NA,10/2/2023
 Age,age6_v2,75+,Yes,NA,10/2/2023
-Age,age6_v2,8-17,Yes,NA,10/2/2023
+Age,age6_v2,17-Aug,Yes,NA,10/2/2023
 Age,ageedu,25-44,Yes,"ACS only (LTBA, LTHS)",10/2/2023
 Age,ageedu,45-64,Yes,"ACS only (LTBA, LTHS)",10/2/2023
 Age,ageedu,65-74,Yes,"ACS only (LTBA, LTHS)",10/2/2023
@@ -36,14 +36,14 @@ Age,ageinsur,26-34,Yes,"ACS uninsured, from tables",10/2/2023
 Age,ageinsur,35-44,Yes,"ACS uninsured, from tables",10/2/2023
 Age,ageinsur,45-54,Yes,"ACS uninsured, from tables",10/2/2023
 Age,ageinsur,55-64,Yes,"ACS uninsured, from tables",10/2/2023
-Age,ageinsur,6-18,No,"ACS uninsured, from tables",10/2/2023
+Age,ageinsur,18-Jun,No,"ACS uninsured, from tables",10/2/2023
 Age,ageinsur,65-74,No,"ACS uninsured, from tables",10/2/2023
 Age,ageinsur,75+,No,"ACS uninsured, from tables",10/2/2023
 Age,ageinsur,<6,No,"ACS uninsured, from tables",10/2/2023
 Age,agelang,18-24,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
 Age,agelang,25-44,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
 Age,agelang,45-64,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
-Age,agelang,5-17,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
+Age,agelang,17-May,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
 Age,agelang,65-74,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
 Age,agelang,75+,Yes,"ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",10/2/2023
 Age,agetran,16-24,Yes,"ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",10/2/2023
@@ -58,14 +58,14 @@ Age,agework,45-64,Yes,"ACS only (CLF, emplCLF, employ, unemp)",10/2/2023
 Age,agework,65-74,Yes,"ACS only (CLF, emplCLF, employ, unemp)",10/2/2023
 Age,agework,75+,Yes,"ACS only (CLF, emplCLF, employ, unemp)",10/2/2023
 Age,yage2,13-17,Yes,NA,10/2/2023
-Age,yage2,8-12,Yes,NA,10/2/2023
+Age,yage2,12-Aug,Yes,NA,10/2/2023
 Age,yage4,0-4,Yes,NA,10/2/2023
-Age,yage4,10-14,Yes,NA,10/2/2023
+Age,yage4,14-Oct,Yes,NA,10/2/2023
 Age,yage4,15-17,Yes,NA,10/2/2023
-Age,yage4,5-9,Yes,NA,10/2/2023
+Age,yage4,9-May,Yes,NA,10/2/2023
 Big cities,bigcities,Gresham city,Yes,NA,10/2/2023
 Big cities,bigcities,Portland city,Yes,NA,10/2/2023
-Birthing person's age,mage5,10-17,Yes,NA,10/2/2023
+Birthing person's age,mage5,17-Oct,Yes,NA,10/2/2023
 Birthing person's age,mage5,18-24,Yes,NA,10/2/2023
 Birthing person's age,mage5,25-34,Yes,NA,10/2/2023
 Birthing person's age,mage5,35-44,Yes,NA,10/2/2023
@@ -270,3 +270,5 @@ Transgender,transgender,Transgender,Yes,NA,10/2/2023
 [Birthing person's] Race,race4,Multiple,Yes,Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.,10/2/2023
 [Birthing person's] Race,race4,NHPI,Yes,Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.,10/2/2023
 [Birthing person's] Race,race4,White,Yes,Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.,10/2/2023
+Age,youth_binary,Age 16-18,Yes,NA,10/2/2023
+Age,youth_binary,Age 19-24,Yes,NA,10/2/2023
