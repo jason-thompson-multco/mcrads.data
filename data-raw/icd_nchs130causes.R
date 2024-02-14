@@ -20,12 +20,12 @@
   library(data.table)
 
 # Function to clean / prep imported data to fix random white spaces (sql_clean) ----
-    source("https://raw.githubusercontent.com/jason-thompson-multco/mcrads/main/R/utilities.R") # pull in rads utilities, particularly sql_clean()
+    source("https://raw.githubusercontent.com/jason-thompson/mcrads/main/R/utilities.R") # pull in rads utilities, particularly sql_clean()
 
 
 # Function to enumerate all ICD per 130 causes of death (split.dash) ----
   # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
-    source("https://raw.githubusercontent.com/jason-thompson-multco/mcrads.data/main/data-raw/icd_utility_split.dash.R")
+    source("https://raw.githubusercontent.com/jason-thompson/mcrads.data/main/data-raw/icd_utility_split.dash.R")
 
 # Read in raw NCHS 130 Selected Causes of Death ICD codes ----
     # Refer to ?icd_nchs130causes_raw for details on source that is going to be manipulated
