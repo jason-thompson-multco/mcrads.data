@@ -4,7 +4,7 @@
 # of folder in /inst/extdata. E.g., spatial_zip_hca.rda >>
 # inst/extdata/spatial_data/zip_hca.csv
 
-devtools::source_url("https://raw.githubusercontent.com/jason-thompson-multco/mcrads/main/R/utilities.R") # get sql_clean
+devtools::source_url("https://raw.githubusercontent.com/jason-thompson/mcrads/main/R/utilities.R") # get sql_clean
 library(data.table)
 
 # convert .rda to .csv and move to /inst/extdata ----
