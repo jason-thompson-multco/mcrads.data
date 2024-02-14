@@ -22,7 +22,7 @@ library(mcrads.data)
 #                      dest = tempy,
 #                      overwrite = FALSE)
 
-    file_url <- "https://raw.githubusercontent.com/jason-thompson-multco/mcrads.data/main/data/misc_phi_byvars.rda"
+    file_url <- "https://raw.githubusercontent.com/jason-thompson/mcrads.data/main/data/misc_phi_byvars.rda"
 
     con <- url(file_url, "rb")
 
@@ -50,7 +50,7 @@ library(mcrads.data)
     misc_phi_byvars[, (string.columns) := lapply(.SD, function(x){stringi::stri_replace_all_charclass(x, "\\p{WHITE_SPACE}", " ")}), .SDcols = string.columns] # replace irregular whitespaces with true whitespaces (' ')
 
 # Identify differences since the previous run ----
-  existing <- fread('https://raw.githubusercontent.com/jason-thompson-multco/mcrads.data/main/inst/extdata/misc_data/phi_byvars.csv')
+  existing <- fread('https://raw.githubusercontent.com/jason-thompson/mcrads.data/main/inst/extdata/misc_data/phi_byvars.csv')
   setorder(existing, cat, varname, group)
   misc_phi_byvars <- rbind(misc_phi_byvars[cat == 'Multnomah County'],
                            misc_phi_byvars[cat == "Oregon State"],
