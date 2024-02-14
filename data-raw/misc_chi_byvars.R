@@ -38,7 +38,7 @@ library(stringi)
     misc_chi_byvars[, (string.columns) := lapply(.SD, function(x){stringi::stri_replace_all_charclass(x, "\\p{WHITE_SPACE}", " ")}), .SDcols = string.columns] # replace irregular whitespaces with true whitespaces (' ')
 
 # Identify differences since the previous run ----
-  existing <- fread('https://raw.githubusercontent.com/jason-thompson-multco/mcrads.data/main/inst/extdata/misc_data/chi_byvars.csv')
+  existing <- fread('https://raw.githubusercontent.com/jason-thompson/mcrads.data/main/inst/extdata/misc_data/chi_byvars.csv')
   setorder(existing, cat, varname, group)
   misc_chi_byvars <- rbind(misc_chi_byvars[cat == 'King County'],
                            misc_chi_byvars[cat == "Washington State"],
